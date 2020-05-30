@@ -1,0 +1,6 @@
+The SVM classification accuracy with Gaussian Kernel with 0% label noise is is: 97.19%
+The SVM classification accuracy with Polynomial Kernel with 0% label noise is is: 56.44%
+The SVM classification accuracy with Gaussian Kernel with 10% label noise is is: 86.81%
+The SVM classification accuracy with Polynomial Kernel with 10% label noise is is: 49.38%
+The SVM classification accuracy with Gaussian Kernel with 25% label noise is is: 72.75%
+The SVM classification accuracy with Polynomial Kernel with 25% label noise is is: 41.88%

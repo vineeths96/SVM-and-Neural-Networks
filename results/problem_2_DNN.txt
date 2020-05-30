@@ -1,0 +1,3 @@
+The DNN classification accuracy 0% label noise is: 99.12%
+The DNN classification accuracy 10% label noise is: 89.94%
+The DNN classification accuracy 25% label noise is: 74.75%
