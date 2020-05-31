@@ -3,19 +3,22 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.optimizers import RMSprop
 from tensorflow.keras.layers import Dense, Flatten, Dropout
 from tensorflow.keras.callbacks import ReduceLROnPlateau, EarlyStopping
-from problem_3.load_data import load_data_DNN
-from problem_3.parameters import *
+from problem_5.load_data import load_data
+from problem_5.parameters import *
 
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
 
 # DNN Classifier
-def problem_3_DNN():
-    #os.remove('./results/problem_3_DNN.txt')
+def problem_5_DNN():
+    try:
+        os.remove('./results/problem_5_DNN.txt')
+    except OSError:
+        pass
 
     # Load data
-    X_train, Y_train, X_test, Y_test = load_data_DNN('MNIST')
+    X_train, Y_train, X_test, Y_test = load_data('/EEG/eeg_data.csv')
 
     INPUT_SHAPE = X_train.shape[1:]
 
@@ -62,5 +65,5 @@ def problem_3_DNN():
     loss, accuracy = model.evaluate(x=X_test, y=Y_test)
 
     print(f"The DNN classification accuracy  is: {accuracy * 100:0.2f}%")
-    with open('./results/problem_3_DNN.txt', "a") as file:
-        file.write(f"The CNN DNN classification accuracy is: {accuracy * 100:0.2f}%\n")
+    with open('./results/problem_5_DNN.txt', "a") as file:
+        file.write(f"The DNN classification accuracy is: {accuracy * 100:0.2f}%\n")
