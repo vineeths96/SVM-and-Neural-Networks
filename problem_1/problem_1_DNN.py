@@ -1,17 +1,17 @@
-import tensorflow as tf
+import os
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Input, Dense
 from tensorflow.keras.optimizers import RMSprop
 from problem_1.load_data import load_data
 from problem_1.parameters import *
 
-import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
-
 
 # DNN Classifier
 def problem_1_DNN():
-    os.remove('./results/problem_1_DNN.txt')
+    try:
+        os.remove('./results/problem_1_DNN.txt')
+    except OSError:
+        pass
 
     noise_level = [0, 20, 40]
     for noise in noise_level:
@@ -37,8 +37,7 @@ def problem_1_DNN():
                             y=Y_train,
                             epochs=EPOCHS,
                             batch_size=BATCH_SIZE,
-                            validation_split=0.1,
-                            verbose=0)
+                            validation_split=0.1)
 
         # Evaluate the model
         loss, accuracy = model.evaluate(x=X_test, y=Y_test)

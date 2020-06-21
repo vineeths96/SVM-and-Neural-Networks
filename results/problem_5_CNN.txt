@@ -1,0 +1,2 @@
+The CNN DNN classification accuracy is: 83.20%
+The CNN DNN classification accuracy is: 87.60%
