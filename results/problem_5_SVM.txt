@@ -1,3 +1,4 @@
-The SVM classification accuracy with Gaussian Kernel is: 54.57%
-The SVM classification accuracy with Polynomial Kernel is: 24.91%
-The SVM classification accuracy with Linear Kernel is: 24.91%
+The SVM classification accuracy with linear Kernel is: 24.91%
+The SVM classification accuracy with poly Kernel is: 24.91%
+The SVM classification accuracy with rbf Kernel is: 54.57%
+The SVM classification accuracy with sigmoid Kernel is: 26.45%

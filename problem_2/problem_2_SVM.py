@@ -28,4 +28,4 @@ def problem_2_SVM():
                 f"The SVM classification accuracy with {kernel} Kernel with {noise}% label noise is: {accuracy * 100:0.2f}%")
             with open('./results/problem_2_SVM.txt', "a") as file:
                 file.write(
-                    f"The SVM classification accuracy with Gaussian Kernel with {noise}% label noise is: {accuracy * 100:0.2f}%\n")
+                    f"The SVM classification accuracy with {kernel} Kernel with {noise}% label noise is: {accuracy * 100:0.2f}%\n")

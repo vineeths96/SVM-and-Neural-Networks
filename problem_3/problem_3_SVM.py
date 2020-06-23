@@ -26,4 +26,4 @@ def problem_3_SVM():
             f"The SVM classification accuracy with {kernel} Kernel is: {accuracy * 100:0.2f}%")
         with open('./results/problem_3_SVM.txt', "a") as file:
             file.write(
-                f"The SVM classification accuracy with Gaussian Kernel is: {accuracy * 100:0.2f}%\n")
+                f"The SVM classification accuracy with {kernel} Kernel is: {accuracy * 100:0.2f}%\n")
