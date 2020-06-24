@@ -10,7 +10,7 @@ from problem_5.parameters import *
 # LSTM Classifier
 def problem_5_LSTM():
     try:
-        os.remove('./results/problem_5_CNN.txt')
+        os.remove('./results/problem_5_LSTM.txt')
     except OSError:
         pass
 
@@ -70,6 +70,6 @@ def problem_5_LSTM():
     # Evaluate the model
     loss, accuracy = model.evaluate(x=X_test, y=Y_test)
 
-    print(f"The CNN DNN classification accuracy  is: {accuracy * 100:0.2f}%")
+    print(f"The LSTM DNN classification accuracy  is: {accuracy * 100:0.2f}%")
     with open('./results/problem_5_LSTM.txt', "a") as file:
-        file.write(f"The CNN DNN classification accuracy is: {accuracy * 100:0.2f}%\n")
+        file.write(f"The LSTM DNN classification accuracy is: {accuracy * 100:0.2f}%\n")
