@@ -4,18 +4,18 @@
 <br />
 
 <p align="center">
-  <a href="https://github.com/vineeths96/Pattern-Recognition-3">
+  <a href="https://github.com/vineeths96/SVM-and-Neural-Networks">
     <img src="results/logo.jpg" alt="Logo" width="80" height="80">
   </a>
   <h3 align="center">Pattern Recognition and Neural Networks</h3>
   <p align="center">
     SVMs and Neural Networks
     <br />
-    <a href=https://github.com/vineeths96/Pattern-Recognition-3><strong>Explore the repository»</strong></a>
+    <a href=https://github.com/vineeths96/SVM-and-Neural-Networks><strong>Explore the repository»</strong></a>
     <br />
     <br />
-    <a href=https://github.com/vineeths96/Pattern-Recognition-3/blob/master/Problem_Statement.pdf>View Problem Statement</a>
-    <a href=https://github.com/vineeths96/Pattern-Recognition-3/blob/master/results/report.pdf>View Report</a>
+    <a href=https://github.com/vineeths96/SVM-and-Neural-Networks/blob/master/Problem_Statement.pdf>View Problem Statement</a>
+    <a href=https://github.com/vineeths96/SVM-and-Neural-Networks/blob/master/results/report.pdf>View Report</a>
   </p>
 
 
@@ -52,7 +52,7 @@ This project was built with
 Clone the repository into a local machine using
 
 ```shell
-git clone https://github.com/vineeths96/Pattern-Recognition-3
+git clone https://github.com/vineeths96/SVM-and-Neural-Networks
 ```
 
 ### Prerequisites
@@ -96,23 +96,23 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Vineeth S  - vs96codes@gmail.com
 
-Project Link: [https://github.com/vineeths96/Pattern-Recognition-3](https://github.com/vineeths96/Pattern-Recognition-3)
+Project Link: [https://github.com/vineeths96/SVM-and-Neural-Networks](https://github.com/vineeths96/SVM-and-Neural-Networks)
 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/vineeths96/Pattern-Recognition-3.svg?style=flat-square
-[contributors-url]: https://github.com/vineeths96/Pattern-Recognition-3/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/vineeths96/Pattern-Recognition-3.svg?style=flat-square
-[forks-url]: https://github.com/vineeths96/Pattern-Recognition-3/network/members
-[stars-shield]: https://img.shields.io/github/stars/vineeths96/Pattern-Recognition-3.svg?style=flat-square
-[stars-url]: https://github.com/vineeths96/Pattern-Recognition-3/stargazers
-[issues-shield]: https://img.shields.io/github/issues/vineeths96/Pattern-Recognition-3.svg?style=flat-square
-[issues-url]: https://github.com/vineeths96/Pattern-Recognition-3/issues
+[contributors-shield]: https://img.shields.io/github/contributors/vineeths96/SVM-and-Neural-Networks.svg?style=flat-square
+[contributors-url]: https://github.com/vineeths96/SVM-and-Neural-Networks/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/vineeths96/SVM-and-Neural-Networks.svg?style=flat-square
+[forks-url]: https://github.com/vineeths96/SVM-and-Neural-Networks/network/members
+[stars-shield]: https://img.shields.io/github/stars/vineeths96/SVM-and-Neural-Networks.svg?style=flat-square
+[stars-url]: https://github.com/vineeths96/SVM-and-Neural-Networks/stargazers
+[issues-shield]: https://img.shields.io/github/issues/vineeths96/SVM-and-Neural-Networks.svg?style=flat-square
+[issues-url]: https://github.com/vineeths96/SVM-and-Neural-Networks/issues
 [license-shield]: https://img.shields.io/badge/License-MIT-yellow.svg
-[license-url]: https://github.com/vineeths96/Pattern-Recognition-3/blob/master/LICENSE
+[license-url]: https://github.com/vineeths96/SVM-and-Neural-Networks/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/vineeths
 
